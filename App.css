@@ -1,0 +1,190 @@
+body{
+  background-color: rgb(219, 240, 240);
+}
+
+.websection{
+  background-color: #01cf01dc;
+  width: 100%;
+  height: 66px;
+  margin-top: 10px;
+  display: flex;
+  border-radius: 10px 10px 0px 0px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.container{
+  background-color: #0760c5ed;
+  justify-content: center;
+  width: 45%;
+  margin-left: 25%;
+  margin-top: 5%;
+  text-align: center;
+}
+input[type=text], select{
+  width: 59%;
+  padding: 1px 2px;
+  margin-left: 6px;
+  border-radius: 2px;
+  margin: 8px 0;
+  margin-left: 6px;
+  display: inline-block;
+  border: 2px solid #ccc;
+  box-sizing: border-box;
+}
+input[type=email], select{
+  width: 59%;
+  padding: 1px 2px;
+  border-radius: 2px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 2px solid #ccc;
+  box-sizing: border-box;
+}
+input[type=password], select{
+  margin-left: 6px;
+  width: 59%;
+  padding: 1px 2px;
+  border-radius: 2px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 2px solid #ccc;
+  box-sizing: border-box;
+}
+button{
+  width: 30%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+::placeholder{
+  font-size: 13px !important;
+  font-family: arial;
+} 
+
+button:hover{
+  background-color: #45a049;
+}
+.header{
+  color: white;
+  width: 100%;
+}
+
+.container {
+  max-width: 600px;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto;
+  background-color: rgb(0,122,196);
+  padding: 20px;
+  border-radius: 0px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
+
+h1{
+  text-align: center; 
+  margin-top: 20px;
+  margin-bottom: 33px;  
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  color: white;
+  flex: 1;
+  text-align: right;
+  margin-right: 20%;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea {
+  width: calc(60% - 12px);
+  padding: 1px;
+  flex: 2;
+  margin-left: 10px;
+  font-size: 13px;
+  border-radius: 4px;
+  border: 1px solid #000000;
+  background-color: #fffefe;
+}
+
+.btn1 {
+  padding: 2px 0px;
+  width: 80px;
+  background-color: transparent;
+  border: 1px solid #dee4ea;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 33px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+/* CSS for header */
+.header {
+  display: flex;
+  align-items: center;
+}
+
+.header img {
+  margin-right: 10px; /* Adjust the margin as needed */
+}
+/* Add this CSS to create a white line above the "Sign In" button */
+.line {
+  border-top: 1px solid white;
+  margin-top: 20px; /* Adjust the margin as needed */
+  padding-top: 10px; /* Adjust the padding as needed */
+}
+.table{
+ width: 150vh;
+ margin-left: 17%;
+}
